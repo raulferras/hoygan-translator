@@ -1,0 +1,24 @@
+#include "version.h"
+
+1 VERSIONINFO
+FILEVERSION    	VERSION_VALUE_DIGIT
+PRODUCTVERSION  VERSION_VALUE_DIGIT
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+	BLOCK "080904E4"
+	BEGIN
+	  VALUE "FileDescription", 		"Traductor Español-Hoygan"
+	  VALUE "FileVersion", 			VERSION_VALUE_TEXT
+	  VALUE "InternalName", 		"HoyganTranslator"
+	  VALUE "OriginalFilename", 	"HoygantTranslator.exe"
+	  VALUE "ProductName",		 	"Traductor Hoygan"
+	  VALUE "ProductVersion", 		VERSION_VALUE_TEXT
+	END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+	VALUE "Translation", 0x809, 1252
+  END
+END
